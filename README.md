@@ -15,7 +15,9 @@ engine beginning in Ember-2.10.  _Feel free to fork this repo; I am by no means 
 regex-expert, this can possible be done more efficiently._
 
 **This script works for me because I made a conscious decision to place my nested
-components inside a folder that has at least one dash.**
+components inside a folder that has at least one dash.  Add to that, none of the
+properties on my models, controllers, or routes have dashes in them; another
+reason this little conversion script works for me.**
 
 ### Requirements
 
