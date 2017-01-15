@@ -38,7 +38,7 @@ to the root of your EmberJS application.
 can easily do a diff on your files after this script has been run.
 1. Execute the Ruby script:
 
-        $ ruby component-dot-to-slashes
+        $ ruby component-dot-to-slashes.rb
 
 1. Review the files changed in your EmberJS application.  Run your ember unit
 tests to make sure everything is still working.  Run your application and do
