@@ -1,7 +1,12 @@
 # emberjs-component-dot-to-slash-paths
 A simple Ruby script that converts EmberJS dot-notation component names to slash-notation.
 
-## Quick Start
+This is hack script that is not supported or guaranteed.  It was written in an hour
+and has managed to save me hours of time converting my EmberJS applications.  
+It may work for you, it may not.  Fork it.  Read the script.  Read the regex.
+Enjoy.
+
+## Get Me Started
 
 I wrote this quick script to plow through my large EmberJS applications that were
 using dot-notation for component and helpers that are nested inside directories.
@@ -9,8 +14,8 @@ This is necessary for your application to work properly with the new Glimmer2
 engine beginning in Ember-2.10.  _Feel free to fork this repo; I am by no means a
 regex-expert, this can possible be done more efficiently._
 
-This script works for me because I made a conscious decision to place my nested
-components inside a folder that has at least one dash.
+**This script works for me because I made a conscious decision to place my nested
+components inside a folder that has at least one dash.**
 
 ### Requirements
 
