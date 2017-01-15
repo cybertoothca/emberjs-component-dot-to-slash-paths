@@ -14,6 +14,10 @@ Dir.glob(files) do |file_name|
   # for each component/helper with dot-notation, turn it to slash-notation and replace in a copy of the file's contents
   to_replace.each do |dot_name|
     slash_name = dot_name.gsub('.', '/')
+
+    # if the dot-name and slash-name are the same, no need to replace anything
+    next if dot_name == slash_name
+
     puts "\tReplacing: #{dot_name} => #{slash_name}"
     new_contents = new_contents.gsub(dot_name, slash_name)
   end
