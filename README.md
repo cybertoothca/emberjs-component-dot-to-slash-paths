@@ -12,7 +12,7 @@ I wrote this quick script to plow through my large EmberJS applications that wer
 using dot-notation for component and helpers that are nested inside directories.
 This is necessary for your application to work properly with the new Glimmer2
 engine beginning in Ember-2.10.  _Feel free to fork this repo; I am by no means a
-regex-expert, this can probably be done with greater efficiently._
+regex-expert, this can probably be done with greater efficiency._
 
 **This script works for me because I made a conscious decision to place my nested
 components inside a folder that has at least one dash.  Add to that, none of the
